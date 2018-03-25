@@ -1,0 +1,142 @@
+body {
+	background-color: #101010;
+	background-image: url("first.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	webkit-animation: mymove 30s infinite;
+	animation: mymove 3s infinite;
+	-webkit-animation-duration: 30s;
+	animation-duration: 30s;
+	margin: 0px;
+}
+@-webkit-keyframes mymove {
+0% {
+background-image: url(first.jpg);
+}
+25% {
+background-image: url(first.jpg);
+}
+50% {
+background-image: url(second.jpg);
+}
+75% {
+background-image: url(third.jpg);
+}
+100% {
+background-image: url(first.jpg);
+}
+}
+ @keyframes mymove {
+0% {
+background-image: url(first.jpg);
+}
+25% {
+background-image: url(first.jpg);
+}
+50% {
+background-image: url(second.jpg);
+}
+75% {
+background-image: url(third.jpg);
+}
+100% {
+background-image: url(first.jpg);
+}
+}
+body::-webkit-scrollbar {
+width: 0.5em;
+}
+ body::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 66px rgba(0,0,0,0.4);
+border-radius:20px;
+}
+ body::-webkit-scrollbar-thumb {
+background-color: gray;
+outline: 1px solid white;
+border-radius:10px;
+}
+a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+#header {
+	position: fixed;
+	background-repeat: no-repeat;
+	background-image: url(header.png);
+	background-position: top;
+	width: 100%;
+	height: 13%;
+	z-index: 1;
+	margin-top: -760px;
+}
+font {
+	color: white;
+	font-size: 20px;
+	word-spacing: 30px;
+	font-family: century gothic;
+}
+td {
+	color: white;
+	font-size: 24px;
+	font-family: century gothic;
+}
+img {
+	border-radius: 20px;
+}
+.hov:hover {
+	text-decoration: underline;
+	transition-delay: .2s;
+	transition: all .3s ease-out;
+	transform: scale(1.2);
+}
+.logohov:hover {
+	transition-delay: .2s;
+	transition: all .3s ease-in-out;
+	transform: scale(1.1);
+	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@-webkit-keyframes rotate {
+ from {
+-webkit-transform:rotate(0deg);
+}
+to {
+	-webkit-transform: rotate(360deg);
+}
+}
+#rotate12 {
+	-webkit-animation-name : rotate;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transition-timing-function: linear;
+	transition-duration: 5s;
+}
+#adver {
+	position: fixed;
+	float: right;
+	margin-left: 1600px;
+	margin-top: -500px;
+	z-index: 1;
+}
+.hoverit1:hover {
+	background-color: blue;
+}
+.hoverit2:hover {
+	background-color: #1dcfff;
+}
+.hoverit3:hover {
+	background-color: #e95950;
+}
+.hoverit4:hover {
+	background-color: red;
+}
+.fontface2 {
+	font-family: Century Gothic;
+	color: White;
+	font-size: 22;
+	margin-left: 500px;
+}
+#events {
+	margin-top: 180px;
+	padding-left: 10px;
+}

@@ -1,0 +1,157 @@
+body
+{
+background-color:#101010;
+background-repeat: no-repeat;
+background-size:contain;;
+webkit-animation: mymove 30s infinite;
+animation: mymove 3s infinite;
+-webkit-animation-duration: 30s;
+animation-duration: 30s;
+margin: 0px;
+
+}
+body::-webkit-scrollbar
+{
+width: 0.5em;
+transition: 0.5s;
+}
+
+body::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 66px rgba(0,0,0,0.4);
+border-radius:20px;transition: 0.5s;
+}
+
+body::-webkit-scrollbar-thumb
+{
+background-color: gray;
+outline: 1px solid white;
+border-radius:10px;transition: 0.5s;
+}
+bodys
+{
+  transition: 0.5stransition: 0.5s;
+}
+.icon
+{
+  padding-left: 20px;
+  transition: 0.5s;
+
+}
+a
+{
+color: white;
+text-decoration:none;
+cursor: pointer;
+}
+#header
+{
+background-repeat: no-repeat;
+background-image: url(headermembers.png);
+background-position: center;
+background-size: cover;
+background-position:top;
+width: 100%;
+height:20%;
+position: fixed;
+}
+div::-webkit-scrollbar
+{
+width: 0.5em;
+}
+
+
+div::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 66px rgba(0,0,0,0.4);
+border-radius:20px;
+}
+
+
+div::-webkit-scrollbar-thumb
+{
+background-color: gray;
+outline: 1px solid white;
+border-radius:10px;
+}
+font
+{
+color:white;
+font-size: 20px;
+font-family: century gothic;
+}
+.hov
+{
+float:right;
+margin-right: 85px;
+align:center;
+margin-top: 2px;
+word-spacing:30px;
+color:white
+}
+
+.hov:hover
+{
+text-decoration: underline;
+transition-delay: .2s;
+transition: all .3s ease-out;
+transform: scale(1.2);
+}
+#divLeft2
+{
+width: 35%;
+float: left;
+font-size: 20px;
+font-family: Century Gothic;
+font-style: italic;
+}
+#divright2
+{
+width: 60%;
+float: right;
+height: 100%
+}
+.icon:hover
+{
+cursor: pointer;
+
+transform: scale(1.3);
+}
+#footer
+{
+  background-color: #101010;
+  width: 100%;
+  height: 4%;
+  position: fixed;
+  margin-top: 910px;
+}
+.footerid
+{
+width: 30px;
+height: 30px;
+transition:0.55s;
+cursor: pointer;
+padding-left: 10px;
+}
+
+.hov
+{
+float:right;
+margin-right:85px;
+align:center;
+margin-top: 2px;
+word-spacing:30px;
+color:white
+}
+letter
+{
+  display:none;
+  line-height: 100%;
+  font-family: century gothic;
+  font-size: 13px;
+  color: white;
+  letter-spacing: 3px;
+  transition: 0.5s;
+  height: 100%;
+}
+#fb:hover{}
